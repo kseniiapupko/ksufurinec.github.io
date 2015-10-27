@@ -2,7 +2,11 @@ body {
 	background: #f9f9f9;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
-	}
+}
+	
+a {text-decoration: none;
+	color: black;}
+
 .wrapper {
 	background: #ffffff;
 	margin: 0 auto; 
@@ -22,6 +26,10 @@ body {
 
 .header li {
 	display: inline-block;
+}
+
+.header a{
+	color: white;
 	line-height: 40px;
 	padding-right: 55px;
 	padding-left: 25px;
@@ -31,8 +39,8 @@ body {
 
 .header li:hover {
 	background: #303030;
-	border-left: 2px solid #838383;
-	border-right: 2px solid #838383;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 	background-image: -moz-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
 }
@@ -47,8 +55,8 @@ body {
 	border:1px solid #c8c8c8;
 	line-height: 40px;
 	margin-top: 40px;
-	
 }
+
 .sidebar li{
 	border-bottom: 1px solid #c8c8c8;
 	padding-left: 24px;	
