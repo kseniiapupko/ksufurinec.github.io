@@ -3,6 +3,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	}
+
 .wrapper {
 	background: #ffffff;
 	margin: 0 auto; 
@@ -11,22 +12,24 @@ body {
 	box-shadow: 0px 0px 1px 0px #adaaad;
 	padding: 50px 48px 60px 46px;
 }
+/*---Хэдер---*/
 .header {
 	margin-top: 40px;
-	list-style: none;
-	color: white;
-	font-size: 14px;
 	background-image: -moz-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb( 68, 67, 67 ) 0%, rgb( 94, 94, 94 ) 100%);
     }
 
+.header a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
 .header li {
 	display: inline-block;
 	line-height: 40px;
 	padding-right: 55px;
 	padding-left: 25px;
 	text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 0 );
-
 }
 
 .header li:hover {
@@ -36,6 +39,8 @@ body {
 	background-image: -moz-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
 }
+
+/*-----Контент----*/
 .content{
 	float:right;
 	width: 678px;
@@ -49,7 +54,10 @@ body {
 	border:1px solid #c8c8c8;
 	line-height: 40px;
 	margin-top: 40px;
-	
+}
+.sidebar a{
+	text-decoration: none;
+	color: black;
 }
 .sidebar li{
 	border-bottom: 1px solid #c8c8c8;
@@ -67,16 +75,19 @@ body {
 .text {
 	padding: 32px 24px 60px;
 	line-height: 21px;
-
 }
 
+/*----Футер----*/
 .footer{
 	list-style: none;
 	clear: both;
 	background: #e1e1e1;
-	
 }
 
+.footer a{
+	text-decoration: none;
+	color:black;
+}
 .footer li{
 	display: inline-block;
 	line-height: 40px;
