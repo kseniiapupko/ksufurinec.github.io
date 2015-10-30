@@ -34,8 +34,8 @@ body {
 
 .header li:hover {
 	background: #303030;
-	border-left: 2px solid #838383;
-	border-right: 2px solid #838383;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 	background-image: -moz-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
 }
@@ -58,6 +58,7 @@ body {
 .sidebar a{
 	text-decoration: none;
 	color: black;
+	transition: 0.2s all;
 }
 .sidebar li{
 	border-bottom: 1px solid #c8c8c8;
