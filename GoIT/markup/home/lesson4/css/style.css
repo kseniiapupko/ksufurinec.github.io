@@ -1,0 +1,163 @@
+
+body{
+	background: url("../img/bg.jpg");
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+}
+
+.wrapper {
+	width: 1000px;
+	background: white;
+	margin: 37px auto;
+	margin-bottom: 0px;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+	overflow: hidden;
+}
+/*---Хэдер---*/
+.header{
+	position: relative;
+	width: 1000px;
+}
+
+.contacts{
+	position: absolute;
+	float:right;
+	color: #128aa7;
+	font-size: 12px;
+	top:10px;
+	right: 30px;
+}
+
+.contacts:first-line {
+	font-weight: bold;
+	line-height: 18px;
+}
+/*----меню со странами---*/
+.contries{
+	position: absolute;
+	list-style: none; 
+	top: 105px;
+	right: 0px;
+	}
+
+.contries li{
+    float: right; 
+    margin:5px;
+}
+
+.contries li:first-child{
+    margin-right: 30px; 
+}
+
+.contries li a {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    color: #128aa7;
+    font-size: 9px;
+    background-position: center top;
+    width: 50px; 
+}
+
+.contries .india a {
+    background: url("../img/india.png") no-repeat;
+}
+.contries .nepal a {
+    background: url("../img/nepal.png") no-repeat;
+}
+.contries .sri_lanka a {
+    background: url("../img/sri-lanla.png") no-repeat;
+}
+.contries .maldives a {
+    background: url("../img/maldives.png") no-repeat;
+}
+.contries .tibet a {
+    background: url("../img/tibet.png") no-repeat;
+}
+.contries .butan a {
+    background: url("../img/butan.png") no-repeat;
+}
+
+/*-------главное меню-----*/
+.content{
+	background:#333;
+	list-style:none;
+	font-size: 14px;
+	margin-top:-2px;
+
+}
+.content li{
+	display:inline-block;
+	position:relative;
+}
+
+.content>li{
+	border-bottom: 1px solid black;
+}
+
+.content li a{
+	background:#333;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	line-height: 30px;
+	padding-right: 25px;
+	padding-left:30px;
+}
+
+.content ul{
+	list-style:none;
+	position:absolute;
+	top:31px;
+	left:-9999px; 
+	opacity:0;
+}
+
+.content ul a{
+	white-space:nowrap; 
+}
+
+.content li:hover ul{ 
+	left:0; 
+	opacity:1; 
+}
+
+.content li:hover ul li a:hover{ 
+	text-decoration:underline;
+}
+
+/*--------три колонки меню----*/	
+.fon {
+background: url("../img/column.jpg") repeat-y; 
+float: left; 
+line-height: 20px;
+text-align: center;
+}
+.left {
+width: 210px;
+float: left;
+}
+
+.middle {
+width: 580px;
+float: left;
+}
+
+.right {
+width: 210px;
+float: right;
+}
+
+.title{
+font-weight: bold;
+}
+
+/*------футер-----*/
+.footer{
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	font-size: 12px;
+}
