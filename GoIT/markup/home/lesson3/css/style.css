@@ -101,8 +101,7 @@ body {
 }
 
 .footer li:last-child{
-	padding-left: 200px;
-	padding-right: 24px;
+	float:right;
 }
 
 .footer li:hover{
