@@ -83,32 +83,31 @@ margin-top: 40px;
 
 /*----Футер----*/
 .footer{
-	list-style: none;
 	clear: both;
+	height: 40px;
+	padding: 0 24px;
 	background: #e1e1e1;
 }
-
-.footer a{
-	text-decoration: none;
-	color:black;
-}
 .footer li{
-	display: inline-block;
-	line-height: 40px;
-	padding-left: 44px;
-	padding-right: 44px;
-	}
+	float:left;
+	margin: 0 40px;
+	list-style: none;	}
 
 .footer li:first-child{
-	padding-left: 24px;
+	margin-left: 0px;
 }
 
+.footer li a, .copyright a{
+	display: block;
+	line-height: 40px;
+	font-size: 13px;
+	text-decoration: none;
+	color:#2c2c2c;
+}
 .footer li:hover{
 	text-decoration: underline;
 }
 
 .copyright{
 	float:right;
-	margin-top:-25px;
-	margin-right: 10px;
-}
+	}
