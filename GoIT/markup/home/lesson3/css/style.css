@@ -103,10 +103,6 @@ body {
 	padding-left: 24px;
 }
 
-.footer li:last-child{
-	float:right;
-}
-
 .footer li:hover{
 	text-decoration: underline;
 }
