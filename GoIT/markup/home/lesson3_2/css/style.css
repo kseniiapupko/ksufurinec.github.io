@@ -1,50 +1,86 @@
 body {
 	background: #282828;
 	font-family: 'Tahoma', sans-serif;
-	font-size: 8px;
+	font-size: 9px;
 	color:white;
 	text-decoration: none;
 	}
 
-a {
-	text-decoration: none;
-	color: white;
-	font-size: 14px;
-	text-align: center;
-}
 .wrapper {
-	background: url("../img/background.jpg") no-repeat;
+	background: url("../img/background.jpg") repeat-y;
 	margin: 0 auto; 
 	width:820px;
-	height: 883px;
+	min-height: 883px;
 	border:1px dotted #282828;
 	box-shadow: 0px 0px 1px 0px #adaaad;
 	padding: 50px 70px 10px 70px;
 }
-.header{
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*------Хедер-----*/
+
+.logo{
+	float:left;
+	width: 400px;
+}
+.contacts{
 	float:right;
-	padding-top:100px;
-	padding-right:35px;
+	width: 100px;
+	padding-top: 100px;
 }
 
-.header:first-line {
+.contacts:first-line {
 	font-size: 10px;
 }
+/*----меню со странами---*/
 
-.content img{
-	-webkit-box-shadow: 0px 0px 3px 3px rgba(171,171,171,1);
--moz-box-shadow: 0px 0px 3px 3px rgba(171,171,171,1);
-box-shadow: 0px 0px 3px 3px rgba(171,171,171,1);
+.content li{
+    float: left; 
+    margin:5px;
+    margin-bottom: 40px;
 }
-.column {
-	display: inline-block;
-	padding-left:10px;
-	padding-bottom: 50px;
-   }
- 
+
+.content li a {
+    display: block;
+    text-align: center;
+    padding-top: 185px;
+    text-decoration: none;
+   	font-size: 15px;
+   	color:white;
+   	font-weight: bold;
+    background-position: center top;
+    width: 260px; 
+}
+
+.content .india a {
+    background: url("../img/india.jpg") no-repeat;
+}
+.content .nepal a {
+    background: url("../img/nepal.jpg") no-repeat;
+}
+.content .sri_lanka a {
+    background: url("../img/sri_lanka.jpg") no-repeat;
+}
+.content .maldives a {
+    background: url("../img/maldives.jpg") no-repeat;
+}
+.content .tibet a {
+    background: url("../img/tibet.jpg") no-repeat;
+}
+.content .butan a {
+    background: url("../img/bhutan.jpg") no-repeat;
+}
+
+/*------Футер-----*/
  .footer{
+ 	padding-top: 150px;
  	text-align: center;
- 	padding-top: 160px;
  	font-size: 10px;
  }
 
