@@ -1,6 +1,7 @@
 
 body{
-	background: url("../img/bg.jpg");
+	background: url("../img/bg.jpg") repeat-x;
+	background-color: #0c739f;
 	font-family: Tahoma, sans-serif;
 	font-size: 14px;
 }
@@ -8,46 +9,61 @@ body{
 .wrapper {
 	width: 1000px;
 	background: white;
-	margin: 37px auto;
-	margin-bottom: 0px;
+	margin: 0px auto;
 	-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
-	overflow: hidden;
 }
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
 /*---Хэдер---*/
 .header{
-	position: relative;
 	width: 1000px;
 }
 
+.logo {
+	float:left;
+	width: 350px;
+}
+
 .contacts{
-	position: absolute;
 	float:right;
 	color: #128aa7;
 	font-size: 12px;
-	top:10px;
-	right: 30px;
+	width: 150px;
+	margin-top: 10px;
+}
+
+.contacts p {
+	line-height: 18px;
 }
 
 .contacts:first-line {
 	font-weight: bold;
-	line-height: 18px;
 }
+
 /*----меню со странами---*/
+
 .contries{
-	position: absolute;
+	float:right;
 	list-style: none; 
-	top: 105px;
-	right: 0px;
-	}
+	clear:right;
+	margin-top: 25px;
+}
 
 .contries li{
-    float: right; 
+    float: left; 
     margin:5px;
 }
 
-.contries li:first-child{
+.contries li:last-child{
     margin-right: 30px; 
 }
 
@@ -81,23 +97,23 @@ body{
 }
 
 /*-------главное меню-----*/
-.content{
+.menu{
 	background:#333;
 	list-style:none;
 	font-size: 14px;
 	margin-top:-2px;
 
 }
-.content li{
+.menu li{
 	display:inline-block;
 	position:relative;
 }
 
-.content>li{
+.menu>li{
 	border-bottom: 1px solid black;
 }
 
-.content li a{
+.menu li a{
 	background:#333;
 	display:block;
 	color:#fff;
@@ -107,7 +123,7 @@ body{
 	padding-left:30px;
 }
 
-.content ul{
+.menu ul{
 	list-style:none;
 	position:absolute;
 	top:31px;
@@ -115,16 +131,16 @@ body{
 	opacity:0;
 }
 
-.content ul a{
+.menu ul a{
 	white-space:nowrap; 
 }
 
-.content li:hover ul{ 
+.menu li:hover ul{ 
 	left:0; 
 	opacity:1; 
 }
 
-.content li:hover ul li a:hover{ 
+.menu li:hover ul li a:hover{ 
 	text-decoration:underline;
 }
 
@@ -136,22 +152,27 @@ line-height: 20px;
 text-align: center;
 }
 .left {
-width: 210px;
+width: 190px;
 float: left;
 }
 
 .middle {
-width: 580px;
+width: 560px;
 float: left;
 }
 
 .right {
-width: 210px;
+width: 190px;
 float: right;
 }
 
+.left, .middle, .right {
+	padding: 0 10px;
+}
+
 .title{
-font-weight: bold;
+font-size: 18px;
+line-height: 35px;
 }
 
 /*------футер-----*/
