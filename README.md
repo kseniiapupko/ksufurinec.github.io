@@ -11,3 +11,9 @@ http://ksufurinec.github.io/GoIT/markup/home/lesson3_2/
 
 ДЗ №4
 http://ksufurinec.github.io/GoIT/markup/home/lesson4/
+
+ДЗ №5 (таблица)
+http://ksufurinec.github.io/GoIT/markup/home/lesson5/
+
+ДЗ №5 
+http://ksufurinec.github.io/GoIT/markup/home/lesson5_1/
