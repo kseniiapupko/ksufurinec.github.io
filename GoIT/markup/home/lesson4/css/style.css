@@ -23,6 +23,7 @@ body{
 	visibility: hidden;
 }
 
+
 /*---Хэдер---*/
 .header{
 	width: 1000px;
@@ -97,19 +98,22 @@ body{
 }
 
 /*-------главное меню-----*/
+.travel{
+	border-top: 1px solid #138aa7;
+	border-bottom: 1px solid #138aa7;
+}
+
 .menu{
 	background:#333;
 	list-style:none;
 	font-size: 14px;
-	margin-top:-2px;
-
 }
 .menu li{
 	display:inline-block;
 	position:relative;
 }
 
-.menu>li{
+.menu {
 	border-bottom: 1px solid black;
 }
 
@@ -145,12 +149,15 @@ body{
 }
 
 /*--------три колонки меню----*/	
+h2{
+	text-align: center;
+}
+
 .fon {
 background: url("../img/column.jpg") repeat-y; 
-float: left; 
 line-height: 20px;
-text-align: center;
 }
+
 .left {
 width: 190px;
 float: left;
