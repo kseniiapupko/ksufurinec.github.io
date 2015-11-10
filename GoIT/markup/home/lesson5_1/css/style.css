@@ -134,10 +134,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 }
 
 .row{
-	background: url("../img/row.png") no-repeat;
-	background-position: 0px 5px;
-	height: 20px;
-	margin-bottom:28px; 
+	text-align: center;
+	padding-bottom: 35px;
+
+}
+	
+.row:before,
+.row:after {
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 130px;
+	height: 1px;
+	
+	vertical-align: middle;
+	background: #000;
+	background-clip: content-box;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	}
+
+.row:before {
+	left: -5px;
+}
+
+.row:after {
+	left: 5px;
 }
 
 .reg-wrapper a{
