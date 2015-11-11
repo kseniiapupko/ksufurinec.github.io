@@ -87,9 +87,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 
 /*----таблица регистрации----*/
 .form{
-	margin: 105px auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
 	width: 560px;
-	
+	height: 610px;
 }
 
 .head{
@@ -114,25 +119,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 
 .facebook{
 	display: block;
-	width: 275px;
+	width: 255px;
 	height: 35px;
 	color: #ffffff;
 	text-decoration: none;
-	background-color: #3a4b77;
-	background-image: url("../img/fb.png");
-    background-position: 20px center;
+	background-position: 20px center;
     background-repeat: no-repeat;
     border-radius: 5px;
-    -webkit-box-shadow: 0px -2px 2px 0px rgba(119,137,178,1);
-	-moz-box-shadow: 0px -2px 2px 0px rgba(119,137,178,1);
-	box-shadow: 0px -2px 2px 0px rgba(119,137,178,1);
+   	border: 1px outset #184aa5;
 	margin-bottom: 25px;
+	background: url("../img/fb.png") no-repeat 15px center;		
+	background-color: #2f4577;
 }
+
+.facebook:before{
+	content: "";
+	position: relative;
+	display: inline-block;
+	width: 1px;
+	height: 35px;	
+	vertical-align: middle;
+	background: #213c71;
+	border-right: 1px solid #879ccc;
+	left:-25px;
+	top:-2px;
+}
+
 
 .facebook span{
 	font-weight: bold;
 }
 
+/*----OU----*/
 .row{
 	text-align: center;
 	padding-bottom: 35px;
@@ -144,7 +162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 	content: "";
 	position: relative;
 	display: inline-block;
-	width: 130px;
+	width: 110px;
 	height: 1px;
 	
 	vertical-align: middle;
@@ -161,6 +179,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 	left: 5px;
 }
 
+/*----end OU----*/
 .reg-wrapper a{
 	display: inline-block;
 	line-height: 35px;
@@ -169,7 +188,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 
 input{
 	display: inline-block;
-	width: 255px;
+	width: 235px;
 	padding: 0 20px;
 	margin-bottom: 15px;
 	line-height: 35px;
@@ -195,6 +214,7 @@ input[type="checkbox"] {
 	padding: 0px 120px 20px 120px;
 }
 
+/*----кнопка регистрации---*/
 button{
 	width: 150px;
 	display: inline-block;
