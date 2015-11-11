@@ -1,4 +1,4 @@
-# ksufurinec.github.io
+﻿# ksufurinec.github.io
 
 ДЗ №1-2
 http://ksufurinec.github.io/GoIT/markup/home/lesson1/
@@ -17,3 +17,6 @@ http://ksufurinec.github.io/GoIT/markup/home/lesson5/
 
 ДЗ №5 
 http://ksufurinec.github.io/GoIT/markup/home/lesson5_1/
+
+ДЗ №6
+http://ksufurinec.github.io/GoIT/markup/home/lesson6/
