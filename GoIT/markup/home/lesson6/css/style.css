@@ -104,25 +104,24 @@ header input{
 	margin-left: 17px;
 }
 
-.home{
-	background: url('../img/mini-home.png') no-repeat; 
-	background-position: center center;
+.smenu a{
+	display: inline-block;
 	width: 25px;
 	height: 20px;
 }
 
-.smenu .sitemap{
-	background: url('../img/mini-lan.png') no-repeat; 
-	background-position: center center;
-	width: 25px;
-	height: 20px;
+
+.smenu .home a{
+	background: url('../img/mini-home.png') no-repeat center center; 
 }
 
-.smenu .cont{
-	background: url('../img/mini-mail.png') no-repeat; 
-	background-position: center center;
-	width: 25px;
-	height: 20px;
+.smenu .sitemap a{
+	background: url('../img/mini-lan.png') no-repeat center center; 
+}
+
+.smenu .cont a{
+	background: url('../img/mini-mail.png') no-repeat center center; 
+
 }
 
 .logo{
