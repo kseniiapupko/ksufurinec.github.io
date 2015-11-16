@@ -40,28 +40,30 @@ header{
 .phones{
 	background: url('../img/head-phone.png') no-repeat;
 	padding-left: 22px;
-	font-size: 19px;
+	font-size: 18px;
 	width: 278px;
 	float:left;
 	margin: 0 7px;
+	letter-spacing: 0.5px;
 }
 
 /*---блок входа---*/
 .login{
 	float:left;
 	width: 490px;
+	height: 21px;
 	background: #0e385d;
 	color: #ffffff;
 	padding: 2px;
-	border-radius: 5px;
+	border-radius: 3px;
 	font-size: 10px;
 	font-family: 'lucida_sans_unicoderegular';
+	box-shadow: 1.5px 2.598px 3px 0 rgb( 150, 150, 150 );
 }
 
 .login:before{
 	content: url('../img/login.png');
 	float: left;
-	height: 20px;
 }
 
 form{
@@ -70,27 +72,31 @@ form{
 
 header input{
 	position: relative;
-	top: 2px;
-	width: 115px;
-	height: 10px;
+    top: 2px;
+    width: 110px;
+    height: 10px;
+    font-size: 10px;
+    padding-left: 2px;
+    margin-left: 3px;
 }
+
 
 .login a{
 	display: inline-block;
 	padding: 0px 5px;
 	text-decoration: none;
 	color: #ffffff;
+	font-size: 11px;
 }
 
 .login li:first-child{
 	border-right:1px solid #ffffff;
 }
 
-
 .pass a{
 	text-decoration: underline;
 	color: #778898;
-	font-size: 11px;
+	font-size: 12px;
 	padding-left: 15px;
 }
 
@@ -104,25 +110,24 @@ header input{
 	margin-left: 17px;
 }
 
-.home{
-	background: url('../img/mini-home.png') no-repeat; 
-	background-position: center center;
+.smenu a{
+	display: inline-block;
 	width: 25px;
 	height: 20px;
 }
 
-.smenu .sitemap{
-	background: url('../img/mini-lan.png') no-repeat; 
-	background-position: center center;
-	width: 25px;
-	height: 20px;
+
+.smenu .home a{
+	background: url('../img/mini-home.png') no-repeat center center; 
 }
 
-.smenu .cont{
-	background: url('../img/mini-mail.png') no-repeat; 
-	background-position: center center;
-	width: 25px;
-	height: 20px;
+.smenu .sitemap a{
+	background: url('../img/mini-lan.png') no-repeat center center; 
+}
+
+.smenu .cont a{
+	background: url('../img/mini-mail.png') no-repeat center center; 
+
 }
 
 .logo{
@@ -132,10 +137,13 @@ header input{
 /*-----основное меню---*/
 .menu{
 	width: 100%;
-	line-height: 30px;
+	line-height: 34px;
 	background: #121415;
 	border-radius: 5px;
 	color: #b1bcc0;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(168,168,168,1);
+-moz-box-shadow: 0px 5px 10px 0px rgba(168,168,168,1);
+box-shadow: 0px 5px 10px 0px rgba(168,168,168,1);
 }
 
 nav{
@@ -178,11 +186,118 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	color:#0d5a8f;
 }
 
+.case img{
+	vertical-align: middle;
+}
+
+/*------форма поиска авто----*/
+
+.poisk{
+	position: relative;
+	height: 145px;
+	margin: 10px 0px;
+	font-size: 10px;
+	font-family: 'lucida_sans_unicoderegular';
+}
+
+.poisk span {
+	color:#8d999d;
+	font-size: 8px;
+}
+
+.avto{
+	position: relative;
+	float: left;
+	width: 405px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin-left: 5px;
+	padding: 0px 5px;
+	webkit-box-shadow: 3px 3px 3px 0px rgba(168,168,169,1);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(168,168,169,1);
+    box-shadow: 3px 3px 3px 0px rgba(168,168,169,1);
+}
+
+.avto h2{
+	position: absolute;
+	left: 100px;
+}
+
+.diski h3{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+
+.shini h3{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+.diski,
+.shini{
+	position: relative;
+	float: left;
+}
+
+.avto dl{
+	width: 185px;
+	margin: 25px 0px;
+}
+.avto dl dt{
+	float: left;
+	width: 70px;
+	font: 10px Arial, sans-serif;
+	color: #000;
+	margin: 3px 5px 0 20px; 
+}
+
+.avto dl dt span:first-child{
+	position: static;
+	font: 8px Arial, sans-serif;
+	color: #77858b;
+}
+.avto dl dt span{
+	position: static;
+	font: 9px Arial, sans-serif;
+	color: #77858b;
+}
+.avto dl dd{
+	margin: 5px 0;
+}
+.avto select{
+	width: 90px;
+}
+
+
+.poisk button{
+	position: absolute;
+	bottom: 5px;
+    right: 5px;
+    background: none;
+    border:none;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 14px;
+    color: #154467;
+}
+
+.poisk h2{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.poisk h2, h3 {
+	color: #154468;
+	font-weight: bold;
+}
+
 /*----поле с товарами----*/
 .content{
 	width: 910px;
 	background: url('../img/bg.png') repeat-y;
-	padding: 10px 0px 38px 0px;
+	padding: 5px 0px 38px 0px;
 }
 
 .content a{
@@ -218,6 +333,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 }
 
 /*---отображение товаров---*/
+section {
+	float:left;
+	width: 150px;
+	text-align: center;
+	margin: 10px 5px 10px 15px;
+}
+
 figure{
 	display: inline-block;
 	width: 135px;
@@ -225,13 +347,6 @@ figure{
 	background: #ffffff;
 	border:1px solid black;
 	border-radius: 5px;
-}
-
-.item {
-	float:left;
-	width: 150px;
-	text-align: center;
-	margin: 10px 5px 10px 15px;
 }
 
 .brand {
@@ -243,7 +358,8 @@ figure{
 	color:#37748f;
 	font-size: 13px;
 }
-.price {
+
+figcaption {
 	color:#114165;
 	font-size: 16px;
 	font-weight: bold;
@@ -251,9 +367,8 @@ figure{
 }
 
 /*---декорирование заголовков---*/
-h2,
-.left>ul>li>a,
-.right>ul>li>a
+.content h2,
+.titleitem>a
  {
 	display: inline-block;
 	border: 1px solid black;
@@ -263,21 +378,20 @@ h2,
 	line-height: 25px;
 }
 
-h2{
+.content h2{
 	background: url('../img/list1.png') no-repeat;
 	background-position: 2px center ;
 	width: 150px;
 	margin-bottom: 14px;
 }
 
-.left>ul>li>a,
-.right>ul>li>a {
+.titleitem>a {
 	background: url('../img/list2.png') no-repeat;
 	background-position: 2px center;
 	width: 120px;
 }
 
-.right>ul>li>a {
+.right .titleitem a {
 	margin-left: 15px;
 }
 
@@ -303,15 +417,19 @@ h2{
 	text-decoration: underline;
 }
 
-/*---кнопка левого меню---*/
-button {
+/*---кнопка правого меню---*/
+.right button {
 	width: 80px;
 	background: #1e6383;
 	text-transform: uppercase;
 	color:#ffffff;
 	line-height: 20px;
-	border-radius: 10px;
+	border-radius: 20px;
 	margin-left: 20px;
+	font-size: 11px;
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(190,192,193,1);
+	-moz-box-shadow: 2px 2px 4px 0px rgba(190,192,193,1);
+	box-shadow: 2px 2px 4px 0px rgba(190,192,193,1);
 }
 
 .brands{
@@ -348,3 +466,5 @@ footer p{
 footer a:hover{
 	color: #4792af;
 }
+
+
