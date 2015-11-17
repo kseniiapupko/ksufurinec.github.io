@@ -18,20 +18,18 @@
 }
 
 body {
-	background-image: url('../img/bg.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: url('../img/bg.jpg') fixed top no-repeat;
 	font-family: "helvetica_neueregular", Tahoma, sans-serif;
 	font-size: 14px;
 	color:#ffffff;
-
 }
+
 /*---Хедер----*/
 
 .header{
 	background: url("../img/bg_head.png") repeat-x;
 	width: 100%;
+	position: relative;
 }
 
 .menu {
@@ -60,6 +58,11 @@ body {
 	border-left: 1px solid #56a2dc;
 }
 
+.flag a:hover{
+	text-decoration: underline;
+	color: #ffffff;
+}
+
 .enter{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#50afdc+0,2989d8+50,207cca+51,2e7ac4+100 */
 	background: #50afdc; /* Old browsers */
@@ -79,6 +82,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 	text-decoration: underline;
 }
 
+.enter a:hover{
+	text-decoration: none;
+}
+
 .menu li a:hover{
 	background: #4eabda;
 	color:#ffffff;
@@ -87,14 +94,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50afdc', end
 
 /*----таблица регистрации----*/
 .form{
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	margin: auto;
+	margin: 213px auto;
 	width: 560px;
-	height: 610px;
+	padding-bottom: 50px;
 }
 
 .head{
@@ -215,10 +217,8 @@ input[type="checkbox"] {
 }
 
 /*----кнопка регистрации---*/
-button{
+.button{
 	width: 150px;
-	display: inline-block;
-	line-height: 35px;
 	color:white;
 	font-weight: bold;
 	background: rgba(103,198,230,1);
@@ -227,6 +227,5 @@ button{
 	background: linear-gradient(rgba(103,198,230,1) 0%, rgba(46,121,196,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67c6e6', endColorstr='#2e79c4', GradientType=0 );
 	border-radius: 5px;
-	border: none;
 	margin-bottom:20px;
 	}

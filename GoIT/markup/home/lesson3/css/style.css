@@ -12,6 +12,7 @@ body {
 	padding: 50px 48px 60px 46px;
 }
 .header {
+
 	margin-top: 40px;
 	list-style: none;
 	color: white;
@@ -26,7 +27,7 @@ body {
 	padding-right: 55px;
 	padding-left: 25px;
 	text-shadow: 0.5px 0.866px 1px rgb( 0, 0, 0 );
-
+	margin: 0 1px;
 }
 
 .header li:hover {
@@ -35,6 +36,7 @@ body {
 	border-right: 2px solid #838383;
 	background-image: -moz-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb( 46, 46, 46 ) 0%, rgb( 74, 74, 74 ) 100%);
+    margin: 0;
 }
 .content{
 	margin-left: 288px;
@@ -46,12 +48,16 @@ body {
 	list-style: none;	
 	border:1px solid #c8c8c8;
 	line-height: 40px;
-	margin-top: 40px;
-	
 }
+
 .sidebar li{
 	border-bottom: 1px solid #c8c8c8;
 	padding-left: 24px;	
+}
+
+.sidebar li a{
+	text-decoration: none;
+	color:#2c2c2c;
 }
 .sidebar li:last-child{
 	border-bottom: none;
@@ -69,27 +75,34 @@ body {
 }
 
 .footer{
-	list-style: none;
+	clear: both;
+	height: 40px;
+	padding: 0 24px;
 	background: #e1e1e1;
 }
 
 .footer li{
-	display: inline-block;
-	line-height: 40px;
-	padding-left: 44px;
-	padding-right: 44px;
+	float: left;
+	margin: 0 40px;
 	}
 
 .footer li:first-child{
-	padding-left: 24px;
+	margin-left: 0px;
 }
 
-.footer li:last-child{
-	padding-left: 200px;
-	padding-right: 24px;
+.footer li a, .copyright{
+	display: block;
+	line-height: 40px;
+	font-size: 13px;
+	text-decoration: none;
+	color:#2c2c2c;
 }
+
 
 .footer li:hover{
 	text-decoration: underline;
 }
 
+.copyright{
+	float: right;
+}
