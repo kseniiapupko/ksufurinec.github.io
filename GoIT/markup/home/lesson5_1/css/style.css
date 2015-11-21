@@ -241,4 +241,5 @@ input[type="checkbox"] {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67c6e6', endColorstr='#2e79c4', GradientType=0 );
 	border-radius: 5px;
 	margin-bottom:20px;
+	padding: 0px;
 	}
