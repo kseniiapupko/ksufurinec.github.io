@@ -64,9 +64,9 @@ body {
 	border-right: 1px solid #56a2dc;
 }
 
-.menu ul li:last-child{
+/*----.menu ul li:last-child{
 	border-right: 1px solid #56a2dc;
-}
+}----*/
 /*----Две последние ссылки в хедере---*/
 .flag:before{
 	content: url("../img/flag.png");
