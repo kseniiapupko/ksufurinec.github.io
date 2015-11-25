@@ -72,8 +72,6 @@ body {
 	content: url("../img/flag.png");
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 10px;
-
 }
 .flag a:hover{
 	text-decoration: underline;
