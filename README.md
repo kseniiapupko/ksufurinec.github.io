@@ -20,3 +20,6 @@ http://ksufurinec.github.io/GoIT/markup/home/lesson5_1/
 
 ДЗ №6
 http://ksufurinec.github.io/GoIT/markup/home/lesson6/
+
+Экзамен
+http://ksufurinec.github.io/GoIT/markup/home/homework7-8/index.html
