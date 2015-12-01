@@ -10,10 +10,13 @@ var userName = prompt('Как вас зовут?');
 console.log('Вас зовут ' + userName);
 
 for (var i = 0; i < 5; i++) {
-if (arr[i] == userName) {
-	alert('Вы успешно вошли ' + userName)}
+	if (arr[i] == userName) {
+	alert('Вы успешно вошли ' + userName);
+	break;
+	}
 }
 
-if (i>=5){
-	alert('Ошибка')
+if ( i>=5 ){
+	alert('Ошибка');
 }
+
