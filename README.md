@@ -23,3 +23,6 @@ http://ksufurinec.github.io/GoIT/markup/home/lesson6/
 
 Экзамен
 http://ksufurinec.github.io/GoIT/markup/home/homework7-8/index.html
+
+JS 1-2
+https://ksufurinec.github.io/GoIT/JavaScript/Home/Lesson1-2/index.html
