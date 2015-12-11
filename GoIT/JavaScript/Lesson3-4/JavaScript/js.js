@@ -36,6 +36,7 @@ var app = {
 
         var label = this.createElement({
           tagName: 'label',
+          className: 'answer',
           content: 'Вариант ответа №' + (j + 1),
           parentElement: form
         });
@@ -45,7 +46,7 @@ var app = {
           inputType: 'checkbox'
         });
 
-        label.insertAdjacentElement('afterBegin', checkbox);
+       label.parentNode.insertBefore(checkbox, label);
       }
 
     };
