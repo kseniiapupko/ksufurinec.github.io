@@ -26,3 +26,6 @@ http://ksufurinec.github.io/GoIT/markup/home/homework7-8/index.html
 
 JS 1-2
 https://ksufurinec.github.io/GoIT/JavaScript/Home/Lesson1-2/index.html
+
+JS 3-4
+http://ksufurinec.github.io/GoIT/JavaScript/Lesson3-4/index.html
