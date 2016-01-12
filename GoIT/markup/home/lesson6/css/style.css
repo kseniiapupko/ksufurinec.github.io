@@ -70,7 +70,7 @@ form{
 	float: left;
 }
 
-header input{
+header input[type="text"]{
 	position: relative;
     top: 2px;
     width: 110px;
@@ -80,6 +80,23 @@ header input{
     margin-left: 3px;
 }
 
+header input[type="submit"]{
+    vertical-align: middle;
+    background-color: transparent;
+    border: 0;
+    width: 35px;
+    color: #fff;
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: -0.39px;
+    cursor: pointer;
+}
+
+.registr{
+	border-left: 1px solid white;
+	font-size: 11px;
+}
 
 .login a{
 	display: inline-block;
@@ -89,17 +106,15 @@ header input{
 	font-size: 11px;
 }
 
-.login li:first-child{
-	border-right:1px solid #ffffff;
-}
-
 .pass a{
-	text-decoration: underline;
 	color: #778898;
 	font-size: 12px;
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
+.pass a:hover{
+		text-decoration: underline;
+	}
 /*----менюшка в конце---*/
 .smenu{
 	float:left;
@@ -205,10 +220,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	font-size: 8px;
 }
 
-.avto{
+.avto, 
+.tires,
+.disc{
 	position: relative;
 	float: left;
-	width: 405px;
 	border: 1px solid #000;
 	border-radius: 10px;
 	margin-left: 5px;
@@ -216,6 +232,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	webkit-box-shadow: 3px 3px 3px 0px rgba(168,168,169,1);
     -moz-box-shadow: 3px 3px 3px 0px rgba(168,168,169,1);
     box-shadow: 3px 3px 3px 0px rgba(168,168,169,1);
+	height: 145px;
+}
+.avto{
+	width: 410px;
+}
+
+.tires{
+	width: 185px;
+}
+
+.disc{
+	width: 260px;
+}
+
+.disc .right-form{
+	width: 160px;
 }
 
 .avto h2{
@@ -294,11 +326,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 }
 
 /*----поле с товарами----*/
-.content{
-	width: 910px;
-	background: url('../img/bg.png') repeat-y;
-	padding: 5px 0px 38px 0px;
-}
 
 .content a{
 	text-decoration: none;
@@ -389,6 +416,8 @@ figcaption {
 	background: url('../img/list2.png') no-repeat;
 	background-position: 2px center;
 	width: 120px;
+	display: block;
+
 }
 
 .right .titleitem a {
@@ -418,7 +447,7 @@ figcaption {
 }
 
 /*---кнопка правого меню---*/
-.right button {
+.right .button {
 	width: 80px;
 	background: #1e6383;
 	text-transform: uppercase;
@@ -430,13 +459,18 @@ figcaption {
 	-webkit-box-shadow: 2px 2px 4px 0px rgba(190,192,193,1);
 	-moz-box-shadow: 2px 2px 4px 0px rgba(190,192,193,1);
 	box-shadow: 2px 2px 4px 0px rgba(190,192,193,1);
+	cursor:pointer;
 }
 
 .brands{
-	width: 680px;
+	width: 700px;
 	margin: 0 auto;
+	padding-top: 30px;
 }
 
+.brands li{
+	display: inline-block;
+}
 /*----Футер----*/
 footer{
 	background: #213a4d;

@@ -15,13 +15,13 @@
 		</div>
 		<div class="login">
 		<form action="#" method="post">
-			<input type="text" placeholder="логин">
-			<input type="text" placeholder="пароль">
-			</form>
+			<input type="text" placeholder="логин" required>
+			<input type="text" placeholder="пароль" required>
+			<input type="submit" class="enter" value="вход">
+				</form>
 			<ul>
-				<li><a href="#">вход</a></li>
-				<li><a href="#">регистрация</a></li>
-				<li class="pass"><a href="#">забыли пароль?</a></li>
+			<li class="registr"><a href="#">регистрация</a></li>
+			<li class="pass"><a href="#">забыли пароль?</a></li>
 			</ul>
 		</div>
 		<div class="smenu">
@@ -144,7 +144,67 @@
 	<button>поиск...</button>
 	</div>
 
+	<div class="tires">
+	<h2>ПОИСК ШИН</h2>
+		Размер:
+		<select name="size">
+		<option value="size">145</option>							 
+		</select>
+		&#47;
+		<select name="size" class="size">
+		<option value="size"></option>
+		</select>
+		<p>R
+		<select name="r">
+		<option value="r">12</option>
+		</select></p>
+		<p>Сезон:</p>
+		<form action="#" > 
+		<div class="season_checkbox">
+		<input type="checkbox" name="summer" id="checkbox" value="first_checkbox">
+		<label for="checkbox">лето</label>
+		</div>
+		<div class="season_checkbox">	
+		<input type="checkbox" name="winter" id="checkbox" value="second_checkbox">
+		<label for="checkbox">зима</label>
+		</div>	
+		 <div class="season_checkbox">
+		<input type="checkbox" name="all_season" id="checkbox" value="third_checkbox">
+		<label for="checkbox">всесез</label>
+		</form>							
+		</div>
+		<button>поиск...</button>
+		</div>
+
+
+	<div class="disc">
+	<h2>ПОИСК ДИСКОВ</h2>
+		<form class="right-form" action="#">
+	<p>Диаметр <span>диска:</span>
+	<select name="diameter">
+	<option value="diameter">14</option>
+	</select></p>
+	<p>Количество <span>крепёжных отверстий:</span> 
+	<select name="qlt[]">
+	<option value="qlt">3</option>
+	</select></p>
+	<p>Диаметр <span>расположения крепёжных отверстий:</span>
+	<select name="drks">
+	<option value="drks">12</option>
+	</select></p>
+	</form>
+	<p>ДЦО <span>(диаметр  центрального  отверстия):</span></p>
+	<select name="dco">
+	<option value="dco">12</option>
+	</select>
+	<p>ЕТ <span>(вылет диска):</span></p>
+	<select name="et">
+	<option value="et">12</option>
+	</select>
+	<button>поиск...</button>
+	</div>
 </div>
+
 
 <div class="content clearfix">
 	<aside class="left">
@@ -178,77 +238,78 @@
 
 
 	<aside class="middle">
-		<section>
+		<a href="#"><section>
 			<div class="brand">Goodyear</div>
 			<div class="name">Ultra Grip Extreme</div>
 			<figure>
 			<img src="img/item.png" alt="">
     		</figure>
     		<figcaption>90.00 грн.</figcaption>
-    	</section>
-		<section>
+    	</section></a>
+		<a href="#"><section>
 			<div class="brand">Nokian</div>
 			<div class="name">Hakkapeliitta R</div>
 			<figure>
 			<img src="img/item2.png" alt="">
     		</figure>
     		<figcaption>115.00 грн.</figcaption>
-    	</section>
-    	<section>
+    	</section></a>
+    	<a href="#"><section>
 			<div class="brand">Hankook</div>
 			<div class="name">K 708 155/65 R14</div>
 			<figure>
 			<img src="img/item.png" alt="">
     		</figure>
     		<figcaption>393.00 грн.</figcaption>
-    	</section>
-    	<section>
+    	</section></a>
+    	<a href="#"><section>
 			<div class="brand">Goodyear</div>
 			<div class="name">Ultra Grip Extreme</div>
 			<figure>
 			<img src="img/item.png" alt="">
     		</figure>
     		<figcaption>90.00 грн.</figcaption>
-    	</section>
-		<section>
+    	</section></a>
+		<a href="#"><section>
 			<div class="brand">Nokian</div>
 			<div class="name">Hakkapeliitta R</div>
 			<figure>
 			<img src="img/item2.png" alt="">
     		</figure>
     		<figcaption>115.00 грн.</figcaption>
-    	</section>
-    	<section>
+    	</section></a>
+    	<a href="#"><section>
 			<div class="brand">Hankook</div>
 			<div class="name">K 708 155/65 R14</div>
 			<figure>
 			<img src="img/item.png" alt="">
     		</figure>
     		<figcaption>393.00 грн.</figcaption>
-    	</section><section>
+    	</section></a>
+    	<a href="#"><section>
 			<div class="brand">Goodyear</div>
 			<div class="name">Ultra Grip Extreme</div>
 			<figure>
 			<img src="img/item.png" alt="">
     		</figure>
     		<figcaption>90.00 грн.</figcaption>
-    	</section>
-		<section>
+    	</section></a>
+		<a href="#"><section>
 			<div class="brand">Nokian</div>
 			<div class="name">Hakkapeliitta R</div>
 			<figure>
 			<img src="img/item2.png" alt="">
     		</figure>
     		<figcaption>115.00 грн.</figcaption>
-    	</section>
-    	<section>
+    	</section></a>
+    	<a href="#"><section>
 			<div class="brand">Hankook</div>
 			<div class="name">K 708 155/65 R14</div>
 			<figure>
 			<img src="img/item.png" alt="">
     		</figure>
     		<figcaption>393.00 грн.</figcaption>
-    	</section>
+    	</section></a>
 
     </aside>
 
@@ -286,12 +347,22 @@
 				Бренд 1				
 				</label></div>
 		</ul>
-		<button>Выбрать</button>
+		<input class="button" type="submit" value="Выбрать">
 	</aside>
 </div>
 
 <div class="brands">
-	<img src="img/brand-logo.jpg" alt="">
+	<ul>
+		<li><a href="#"><img src="img/toyo.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/bridgestone.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/cont.jpg"	alt=""></a></li>
+		<li><a href="#"><img src="img/brand4.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/avon.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/tf.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/firelli.jpg" alt=""></a></li>
+		<li><a href="#"><img src="img/dunlop.jpg" alt=""></a></li>
+	</ul>
+	<!-- <a href=""><img src="img/brand-logo.jpg" alt=""></a> -->
 </div>
 
 <footer>
