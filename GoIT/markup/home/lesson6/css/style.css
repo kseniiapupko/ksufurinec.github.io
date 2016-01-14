@@ -66,11 +66,12 @@ header{
 	float: left;
 }
 
-form{
+.login form{
 	float: left;
 }
 
-header input[type="text"]{
+header input[type="text"],
+header input[type="password"]{
 	position: relative;
     top: 2px;
     width: 110px;
@@ -162,10 +163,8 @@ box-shadow: 0px 5px 10px 0px rgba(168,168,168,1);
 }
 
 nav{
-	float: left;
+	float: right;
 	width: 550px;
-	margin-left: 130px;
-
 }
 nav a{
 	display: inline-block;
@@ -192,7 +191,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 
 /*---корзина---*/
 .case{
-	float: left;
+	float: right;
 	width: 230px;
 	font-size: 11px;
 }
@@ -205,6 +204,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	vertical-align: middle;
 }
 
+.case:before{
+	content: url('../img/case.png');
+	margin-top: 13px;
+}
 /*------форма поиска авто----*/
 
 .poisk{
@@ -242,26 +245,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	width: 185px;
 }
 
-.disc{
-	width: 260px;
-}
-
-.disc .right-form{
-	width: 160px;
-}
-
 .avto h2{
 	position: absolute;
 	left: 100px;
 }
 
-.diski h3{
+.diski legend{
 	position: absolute;
 	left: 20px;
 	top: 10px;
 }
 
-.shini h3{
+.shini legend{
 	position: absolute;
 	right: 20px;
 	top: 10px;
@@ -296,14 +291,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	color: #77858b;
 }
 .avto dl dd{
-	margin: 5px 0;
+	margin: 2px 0;
 }
 .avto select{
 	width: 90px;
 }
 
 
-.poisk button{
+.poisk .button{
 	position: absolute;
 	bottom: 5px;
     right: 5px;
@@ -320,9 +315,81 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	font-size: 12px;
 }
 
-.poisk h2, h3 {
+.poisk h2, legend {
 	color: #154468;
 	font-weight: bold;
+}
+
+
+.tires dd p{
+	font-size: 12px;
+	color: black;
+}
+
+.tires .check dt, dd{
+	vertical-align: top;
+}
+
+.tires dt, dd{
+	display: inline-block;
+}
+
+.tires input[type="submit"]{
+	margin-right: 15px;
+	margin-top: -3px;
+}
+
+.tires .size{
+	width: 50px;
+}
+
+.tires .r{
+	width: 45px;
+	margin-left: 3px;
+}
+
+.tires dl{
+	margin-top: 5px;
+}
+
+.tires fieldset dl:nth-child(3){
+	margin-left: 30px;
+}
+
+.tires fieldset dl:nth-child(4) dd{
+	margin-left: 10px;
+}
+
+.disc{
+	width: 260px;
+	font-size: 9px;
+}
+.disc .left{
+	float: left;
+}
+.disc .right{
+	float: left;
+	border-left: solid 1px #bdc6ca;
+	padding-left: 5px;
+}
+.disc .left dt, dd{
+	display: inline-block;
+}
+.disc select{
+	width: 55px;
+}
+.disc .first{
+	margin-left: 18px;
+}
+.disc .second{
+	width: 50px;
+	margin-left: 31px;
+}
+.disc .third{
+	margin-left: 37px;
+}
+.disc dt, dd{
+	vertical-align: middle;
 }
 
 /*----поле с товарами----*/
@@ -332,11 +399,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	color: #788489;
 }
 
-.left{
+.content .left{
 	float: left;
 	width: 190px;
 }
-.middle{
+.content .middle{
 	float: left;
 	width: 526px;
 	background: rgba(223,231,232,1);
@@ -353,7 +420,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	padding-bottom: 20px;
 }
 
-.right{
+.content .right{
 	float: left;
 	width: 180px;
 	padding-left: 10px;
