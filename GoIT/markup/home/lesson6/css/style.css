@@ -209,6 +209,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	margin-top: 13px;
 }
 /*------форма поиска авто----*/
+.line{
+	display: inline-block;
+	font-size: 8px;
+	color: #8d999d;
+}
 
 .poisk{
 	position: relative;
@@ -221,6 +226,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 .poisk span {
 	color:#8d999d;
 	font-size: 8px;
+	display: block;
 }
 
 .avto, 
@@ -308,6 +314,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
     font-style: italic;
     font-size: 14px;
     color: #154467;
+    cursor: pointer;
 }
 
 .poisk h2{
@@ -332,11 +339,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 
 .tires dt, dd{
 	display: inline-block;
-}
-
-.tires input[type="submit"]{
-	margin-right: 15px;
-	margin-top: -3px;
 }
 
 .tires .size{
@@ -371,6 +373,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	float: left;
 	border-left: solid 1px #bdc6ca;
 	padding-left: 5px;
+	margin-left: 5px;
+	margin-top: 4px;
 }
 .disc .left dt, dd{
 	display: inline-block;
@@ -379,14 +383,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	width: 55px;
 }
 .disc .first{
-	margin-left: 18px;
+	margin-left: 29px;
 }
 .disc .second{
 	width: 50px;
-	margin-left: 31px;
+	margin-left: 17px;
 }
 .disc .third{
-	margin-left: 37px;
+	margin-left: 10px;
 }
 .disc dt, dd{
 	vertical-align: middle;
