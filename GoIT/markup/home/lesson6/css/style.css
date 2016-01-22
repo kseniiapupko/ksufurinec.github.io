@@ -209,7 +209,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25617b', end
 	margin-top: 13px;
 }
 /*------форма поиска авто----*/
-.line{
+.tires .line{
 	display: inline-block;
 	font-size: 8px;
 	color: #8d999d;
