@@ -35,3 +35,6 @@ http://ksufurinec.github.io/GoIT/JavaScript/Lesson5-6/index.html
 
 JS 7-8
 http://ksufurinec.github.io/GoIT/JavaScript/Lesson7-8/index.html
+
+JS 9-10
+http://ksufurinec.github.io/GoIT/JavaScript/Lesson9-10/index.html

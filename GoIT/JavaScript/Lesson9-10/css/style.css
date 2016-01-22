@@ -1,0 +1,198 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+img{
+	width: 800px;
+	height: 450px;
+}
+
+.jcarousel-wrapper {
+  margin: 20px auto;
+  position: relative;
+  border: 10px solid #fff;
+}
+
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+}
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.jcarousel li {
+  float: left;
+}
+
+.jcarousel-prev, .jcarousel-next {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(33, 33, 33, 0.6);
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 10px 10px #000;
+  font: 24px/37px Arial, sans-serif;
+   -webkit-box-shadow: 0 0 2px #999;
+  -moz-box-shadow: 0 0 2px #999;
+  box-shadow: 0 0 2px #999;
+}
+.jcarousel-prev{
+	left:850px;
+}
+.jcarousel-next {
+  right: 850px;
+}
+.jcarousel-prev:hover span, .jcarousel-next:hover span {
+  display: block;
+}
+
+.selectricWrapper {
+	width: 250px;
+	margin: 50px auto;
+}
+
+
+
+
+nav {
+    background-color:rgb(255,100,100);
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style-type:none;
+}
+
+nav ul li {
+    display:inline-block;
+    position:relative;
+    list-style: none;
+}
+
+nav li ul {    
+    background-color:rgb(225,75,75);
+    position:absolute;
+    left:0;
+    top:40px; 
+    width:200px;
+    border-radius: 2px;
+}
+
+nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+    padding: 10px 0 0 0;
+}
+
+nav li li ul {
+    position:absolute;
+    top:0;
+    left:200px; 
+    margin:0;
+}
+
+nav a {
+    line-height:40px;
+    padding: 0 15px;
+    margin: 0 48px;
+}
+
+nav a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active {
+    color: black;
+}
+
+nav li li a {
+    margin:0 10px;
+    padding:0;
+}
+
+ul.sub-menu {
+    display:none;
+}
+
+.sub-menu{
+  z-index: 1;
+}
+
+
+/*---checkboxes---*/
+.niceCheck {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(http://xiper.net/examples/html-and-css-tricks/forms/img/checkbox.png);
+    overflow: hidden;
+}
+.niceChecked {
+    background-position: 0 -17px;
+}
+
+.niceCheck input {
+    margin-left: -100px; /* можно задать побольше чтобы наверняка скрыть поле */
+}
+
+.niceCheckDisabled {
+    background-image: url(http://xiper.net/examples/html-and-css-tricks/forms/img/checkbox-disabled.png);
+}
+
+.jquery, .css {
+  float: left;
+  width: 500px;
+  border: 1px solid green;
+  border-radius: 35px;
+  text-align: center;
+}
+
+
+.css input[type=checkbox] {
+   position: absolute;
+   clip: rect(0, 0, 0, 0);
+}
+.css label {
+    display: block;
+    cursor: pointer;
+}
+
+.css label:after {
+    content: " ";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url(http://xiper.net/examples/html-and-css-tricks/forms/img/checkbox-2.png);
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+
+.css input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+
+.css label:hover:after {
+background-position: 0 -34px;
+}
+
+
+.css input[type=checkbox]:checked + label:hover:after {
+background-position: 0 -51px;
+}
