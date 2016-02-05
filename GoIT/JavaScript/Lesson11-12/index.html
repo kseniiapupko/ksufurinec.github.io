@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.carousel.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+		 <script type="text/html" id="CV">
+			 <div id="wrapper">
+				<h2><%= name %></h2>
+				<div class="fotoUser"><img src=<%= img %>></div>
+				<p><%= speciality %></p>
+				<div class="border">
+					<p>Хочу учить фронтенд потому, что:</p> 
+					<ul>
+							<li><%= firstLine %></li>
+							<li><%= secondLine %></li>
+							<li><%= thirdLine %></li>
+					</ul>
+				</div>
+				<div class="border">
+					<p>Мой контактный телефон<br/><%= phoneNumber %></p>
+					<p>Мой профиль вконтакте<br/><a href=<%= vk %>>vk.com</a></p>
+				</div>
+				<div class="border"><p>Мой фидбек:<br/><%= feedback %></p></div>
+			</div>
+	 </script>
+	<div class="carousel-cover">
+		<div class="carousel-hider">
+			<ul class="carousel-list">
+				<li class="carousel-element"><img src="img/1.jpg"></li>
+				<li class="carousel-element"><img src="img/2.jpg"></li>
+				<li class="carousel-element"><img src="img/3.jpg"></li>
+				<li class="carousel-element"><img src="img/4.jpg"></li>
+				<li class="carousel-element"><img src="img/5.jpg"></li>
+				<li class="carousel-element"><img src="img/1.jpg"></li>
+				<li class="carousel-element"><img src="img/2.jpg"></li>
+				<li class="carousel-element"><img src="img/3.jpg"></li>
+				<li class="carousel-element"><img src="img/4.jpg"></li>
+			</ul>
+		</div>
+		<div class="carousel-arrow-left"> 
+		<span><<</span>
+		</div>
+	<div class="carousel-arrow-right"> 
+	<span>>></span>
+	</div>
+</div>
+</body>
+</html>

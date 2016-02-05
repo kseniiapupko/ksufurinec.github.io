@@ -1,0 +1,71 @@
+* {    
+	margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+	background: #ffffff;
+	width: 463px;
+	margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 30px 50px;
+}
+h2 {
+	text-align: center;
+	margin: 10px;
+}
+.fotoUser {
+    text-align: center;
+}
+.border {
+	border-top: 1px solid black;
+}
+
+p {
+	padding: 0 10px;
+	margin: 10px 0;
+}
+.border ul{
+	margin: 10px 0 10px 25px;
+}
+li {
+	margin: 5px 0;
+}
+.carousel-hider {
+	width: 600px;
+	height: 245px;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+.carousel-cover {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    position: relative;
+}
+.carousel-element {
+    display: block;
+    float: left;
+}
+.carousel-arrow-left, .carousel-arrow-right{
+	position: absolute;
+	font-weight: bold;
+	cursor: pointer;
+}
+.carousel-arrow-right{
+	top: 120px;
+    left: 720px;
+}
+.carousel-arrow-left{
+	top: 120px;
+    left: 70px;
+}
+.carousel-element img {
+    width: 300px;
+    height: 200px;
+}
