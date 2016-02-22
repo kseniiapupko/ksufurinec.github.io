@@ -1,0 +1,327 @@
+@media all and (max-width: 980px) {
+ .wrapper{
+ 	width: 768px;
+ }
+
+ .mainmenu {
+	float: left;
+	clear: left;
+}
+
+.mainmenu li {
+    line-height: 75px;
+}
+
+.slider{
+	margin-top: 50px;
+}
+
+.design{
+	font-size: 20px;
+}
+
+.slider_text{
+	width: 310px;
+    margin: 95px 0px 70px 25px;
+}
+
+.slider_text h1{
+	font-size: 48px;
+}
+.slider_text h2{
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.slider_text h3{
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.slider_text h3 span{
+	display: none;
+}
+.slider_img {
+    right: 115px;
+    top: -29px;
+}
+
+.click ul {
+    margin-top: 45px;
+    margin-bottom: 90px;
+ }
+.aboutcompany article {
+	margin: 75px 0px 66px 63px;
+}
+
+.aboutcompany article span{
+	font-size: 24px;
+}
+
+.aboutcompany article p {
+    line-height: 24px;
+
+}
+
+.aboutcompany article a {
+	margin-top: 6px;
+}
+.blog_left {
+    width: 240px;
+    margin-left: 20px;
+} 
+
+.blog h3 {
+	font-size: 24px;
+}
+
+.blog p{
+	font-size: 16px;
+}
+.blog span{
+	display: block;
+}
+
+.blog_right {
+    width: 360px;
+    margin-right: 20px;
+}
+.blog_right h3{
+	font-size: 30px;
+}
+.blog_right span{
+	display: none;
+}
+.brands ul{
+	margin: 0px;
+}
+
+.comment {
+    padding: 96px 0px 100px 0px;
+}
+.comment_first{
+	display: block;
+}
+.comment h3,
+.comment_copyright{
+	display: none;
+}
+
+.comment h4{
+	font-size: 24px;
+}
+.design {
+	line-height: 214px;
+	font-size: 12px;
+}
+}
+@media all and (max-width: 768px){
+
+.wrapper{
+ 	width: 480px;
+ }
+
+.logo {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.slider{
+	margin-top: 45px;
+}
+.mainmenu li{
+	position: relative;
+	line-height: 40px;
+	margin: 0px;
+}
+
+.mainmenu>ul>li:first-child{
+	margin-left: 210px;
+}
+.mainmenu ul li ul{
+	position:absolute;
+    left:-99990px; 
+    opacity:0; 
+    -webkit-transition:0.25s linear opacity; 
+}
+
+.mainmenu a{
+	text-decoration: none;
+	font-size: 24px;
+	color: #ffffff;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+	text-transform: uppercase;
+	}
+
+.mainmenu li:hover ul{
+    left:-102px; 
+    top:0px;
+    opacity:1; 
+    z-index: 10;
+}
+
+.dropbox_inner{
+	display: block;
+
+		
+}
+.dropbox:hover{
+	background: rgba(43,34,49,0.7);
+	border-bottom: 2px solid #edbfff;
+	padding-bottom: 0px;
+}
+
+.dropbox li{
+	width: 242px;
+	text-align: center;
+	border-bottom: 2px solid transparent;
+}
+.dropbox li:hover {
+	border-bottom: 2px solid #edbfff;
+}
+.slider_text {
+    width: 310px;
+    margin: 95px 0px 70px 25px;
+}
+
+.slider_text h1{
+	font-size: 36px;
+	line-height: 48px;
+}
+.slider_text h2{
+	font-size: 18px;
+}
+.slider_text h3{
+	display: none;
+}
+
+.slider img{
+	width: 70%;
+}
+
+.slider_img {
+    right: 42px;
+    top: -13px;
+}
+.click ul{
+	width: 280px;
+	margin-top: 10px; 
+	margin-bottom: 68px;
+}
+
+.aboutcompany article{
+	float: none;
+	width: 80%;	
+	margin-top: 65px;
+}
+
+.blog_left{
+	width: 80%;
+	margin-bottom: 75px;
+    margin-top: 70px;
+    margin-left: 45px;
+
+}
+.blog_left:before{
+ 	left: -28px;
+    top: 15px;
+}
+.blog_right{
+	margin-top: 0px;
+	margin-right: 40px;
+	margin-bottom:91px;
+}
+
+.blog h3{
+	font-size: 30px
+}
+.blog span{
+	display: inline;
+}
+.brands li:first-child{
+	margin-left: 80px;
+}
+
+.brands li{
+	margin-bottom: 13px;
+    margin-top: 12px;
+}
+.comment{
+	padding: 76px 0px 100px 0px;
+}
+
+.comment article{
+	width: 100%;
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+
+.comment article:first-child{
+	margin-left: 20px;
+}
+.footer_menu_nav{
+	padding-top: 40px;
+}
+.footer_menu_nav a{
+	margin-right: 25px;
+}
+.footer_menu_nav li{
+	line-height: 30px;
+}
+.design{
+	width: 100%;
+	font-size: 12px;
+	line-height: 30px;
+	float: none;
+	text-align: center;
+	margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+
+}
+@media all and (max-width: 480px){
+.wrapper{
+	width: 320px;
+}
+
+
+.mainmenu>ul>li:first-child{
+	margin-left: 125px;
+}
+.slider{
+	background: none;
+}
+.slider_img{
+	display: none;
+}
+
+.click ul{
+	width: 200px;
+}
+
+.blog_right,
+.blog_left{
+	margin:0px;
+}
+.brands li:first-child{
+	margin-left: 60px;
+}
+.brands li{
+	margin-left: 60px;
+}
+
+.comment,
+.footer_menu_nav{
+	display: none;
+}
+
+.design{
+	margin-top: 0px;
+	padding-top: 20px;
+}
+}
+
+
+
