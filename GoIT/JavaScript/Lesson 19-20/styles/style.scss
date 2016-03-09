@@ -1,0 +1,650 @@
+$width:       1160px;
+$main_color:  #2a2d32;
+$center:      0 auto;
+$white:       #ffffff;
+$orange:	  #f4b60d;
+$blue:        #248cec;
+$ubuntu:      'Ubuntu', sans-serif;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 1920px;
+}
+
+header {
+	width: $width;
+	margin: $center;
+	padding-top: 40px;
+}
+
+//logo
+
+.header__logo {
+	position: relative;
+	overflow: hidden;
+	width: 165px;
+	height: 40px;
+	float: left;
+	margin-bottom: 35px;
+	text-decoration: none;
+
+	img {
+		float: left;
+		height: 35px;
+	}
+
+	.header__logo__text--top {
+		float: left;
+		font-family: $ubuntu;
+		font-weight: bold;
+		font-size: 20px;
+		color: $main_color;
+		padding-left: 10px;
+	}
+
+	.header__logo__text--bottom {
+		font-family: $ubuntu;
+		font-size: 10px;
+		text-transform: uppercase; 
+		color: $main_color;
+		float: left;
+		padding-left: 10px;
+	}
+
+}
+
+//contacts
+
+.header__contacts {
+	float: right;
+	height: 16px;
+	width: 212px;
+	margin-top: 8px;
+
+
+	a {
+		display: block;
+		height: 16px;
+		width: 16px;
+		float: left;
+		margin-right: 23px;
+		background-size: cover;
+	}
+
+	.facebook {
+		background-image: url(../img/connection/svg/facebook.svg);
+	}
+
+	.twitter {
+		background-image: url(../img/connection/svg/twitter.svg);
+	}
+
+	.rss {
+		background-image: url(../img/connection/svg/rss.svg);
+	}
+
+	.linkedin {
+		background-image: url(../img/connection/svg/linkedin.svg);
+	}
+
+	.skype {
+		background-image: url(../img/connection/svg/skype.svg);
+	}
+
+	.facebook:hover {
+		background-image: url(../img/connection-hover/svg/facebook.svg);
+	}
+
+	.twitter:hover {
+		background-image: url(../img/connection-hover/svg/twitter.svg);
+	}
+
+	.rss:hover {
+		background-image: url(../img/connection-hover/svg/rss.svg);
+	}
+
+	.linkedin:hover {
+		background-image: url(../img/connection-hover/svg/linkedin.svg);
+	}
+
+	.skype:hover {
+		background-image: url(../img/connection-hover/svg/skype.svg);
+	}
+}
+
+// navigation
+
+.header__navigation {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	width: $width;
+	height: 60px;
+	background: $main_color;
+
+	li {
+		list-style: none;
+		float: left;
+		width: 114px;
+		height: 60px;
+		border-right: 1px solid #181a1d; 
+	}
+
+	a {
+		text-decoration: none;
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		height: 100%;
+		padding-top: 20px;
+		color: $white;
+		font-family: $ubuntu;
+	}
+
+	li:hover {
+		background: $blue;
+		
+		a {
+			color: $orange;
+		}
+	}
+
+	input[type=text] {
+		float: right;    
+		height: 38px;
+		width: 240px;
+		border: 1px solid #181a1d;
+		background: #35383c;
+		margin: 9px 8px 0 0;
+		font-size: 20px;
+		padding-left: 5px;
+	}
+}
+
+//carouserl
+
+.header__carousel {
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.jcarousel_wrapper {
+	position: relative;
+}
+
+.jcarousel {
+	position: relative;
+	overflow: hidden;
+
+	ul {
+		width: 20000em;
+		position: relative;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		float: left;
+	}
+}
+
+.jcarousel_pagination {
+	padding: 20px 0;
+}
+
+.jcarousel_page {
+	display: inline-block;
+	margin: 0 10px;
+	width: 12px;
+	height: 12px;
+	background: $white;
+	border: 4px $white solid;
+	transition: all 0.2s linear;
+}
+
+.jcarousel_page:hover {
+	background: $main_color;
+}
+
+.active {
+	background: $main_color;
+}
+
+.jcarousel img {
+	width: $width;
+	height: 470px;
+}
+
+.jcarousel_pagination {
+	position: absolute;
+	top: 400px;
+	left: 510px;
+}
+
+.header__carousel__text {
+	font-weight: bold;
+	font-family: $ubuntu;
+	font-size: 54px;
+	position: absolute;
+	top: 240px;
+	left: 70px;
+
+	p {
+		background: rgba(42, 45, 50, 0.9);
+		padding: 0 15px;
+	}
+}
+
+.header__carousel__text--top {
+	width: 190px;
+	color: $orange;
+}
+
+.header__carousel__text--center {
+	width: 190px
+}
+
+//information
+
+.header__information-block{
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+
+	.header__information {
+		position: relative;
+		overflow: hidden;
+		float: left;
+		margin-right: 40px;
+		width: 360px;
+		font-family: $ubuntu;
+
+		.header__information__huge-number {
+			display: block;
+			font-weight: bold;
+			color: #efeff0;
+			font-size: 60px;
+			float: left;
+			height: 190px;
+			margin-right: 40px;
+		}
+
+		img {
+			padding-top: 15px;
+		}
+
+		.header__information__name {
+			margin: 16px 0 18px 0;
+			display: inline-block;
+			width: 230px;
+			font-size: 23px;
+			font-weight: bold;
+			color: $main_color;
+		}
+
+		.header__information__text {
+			color: $main_color;
+			margin-bottom: 16px;
+			font-size: 13px;
+		}
+
+		.header__information__button {
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 13px;
+			color: $main_color;
+		}
+
+		.header__information__button:hover {
+			color: $blue;
+		}
+
+	}
+
+	.header__information--third {
+		margin-right: 0;
+	}
+
+}
+
+//content
+
+.content {
+	margin-top: 75px;
+	background: $main-color;
+
+	.content__services-container {
+		position: relative;
+		overflow: hidden;
+		width: $width;
+		margin: $center;
+		font-family: $ubuntu;
+
+		.content__services__title {
+			color: $white;
+			margin: 46px 0 55px 0;
+			font-size: 24px;
+		}
+
+	}
+	.content__services {
+		width: 260px;
+		position: relative;
+		overflow: hidden;
+		float: left;
+		margin-right: 40px;
+
+		.content__services--img {
+			display: block;
+			height: 260px;
+			background: $blue;			
+			text-decoration: none;
+		}
+
+		img {
+			height: 260px;
+			width: 260px;
+		}
+
+		img:hover {
+			opacity: 0.5;
+		}
+		
+		.content__services__text {
+			text-decoration: none;
+			display: block;
+			margin: 22px auto 70px auto;
+			color: $white;
+			text-align: center;
+			font-size: 16px; 
+		}
+
+		.content__services__text:hover {
+			color: $orange;
+		}	
+	}
+
+	.content__services--foreth {
+		margin-right: 0;
+	}
+
+	.content__news-container {
+		width: 1920px;
+		background: #f7f7f7;
+
+		.content__news {
+			position: relative;
+			overflow: hidden;
+			width: $width;
+			margin: $center;
+			padding: 63px 0 80px 0;
+
+			.content__latest-news {
+				position: relative;
+				overflow: hidden;
+				float: left;
+				width: 560px;
+
+				.content__latest-news__title {
+					font-family: $ubuntu;
+					font-size: 24px;
+					margin-bottom: 40px;
+					color: $main_color;
+					font-weight: bold;
+				}
+
+				.content__latest-news__box {
+					font-family: $ubuntu;
+					position: relative;
+					overflow: hidden;
+					color: $main_color;
+					img {
+						float: left;
+						margin-right: 30px;
+					}
+
+					.content__latest-news--title {
+						font-size: 16px;
+						font-weight: bold;
+						margin-bottom: 10px;
+					}	
+
+					.content__latest-news--by {
+						float: left;
+						font-size: 13px;
+						margin-right: 10px;
+
+						span {
+							color: $blue;
+						}
+					}
+
+					.content__latest-news--comments {
+						font-size: 13px;
+
+						span {
+							color: $blue;
+						}
+					}
+
+					.content__latest-news--text {
+						margin-top: 24px;
+						font-size: 13px;
+
+					}
+				}
+
+				.content__latest-news__box--second {
+					margin-top: 30px;
+				}
+			}	
+
+			.content__banners {
+				float: left;
+				width: 560px;
+				margin-left: 40px;
+
+				.content__banners__title {
+					font-family: $ubuntu;
+					font-size: 24px;
+					margin-bottom: 40px;
+					color: $main_color;
+					font-weight: bold;						
+				}
+
+				.banner {
+					display: block;
+					font-family: $ubuntu;
+					position: relative;
+					overflow: hidden;
+					margin-bottom: 5px;
+
+					.banner__title {
+						font-size: 16px;
+						font-weight: bold;
+						width: 100%;
+						height: 40px;
+						// color: $white;
+						// background: $orange;
+						border: 1px solid $white;
+						color: $main_color;
+						background: $white;
+						border-color: #e8e8e8;
+						font-weight: bold;
+
+						.banner__title__plus {
+							display: block;
+							width: 40px;
+							height: 40px;
+							text-align: center;
+							border-right: 1px solid #e8e8e8; 
+							float: left;
+							font-size: 25px;
+						}
+
+						.banner__title__minus {
+							display: none;
+							width: 40px;
+							height: 40px;
+							text-align: center;
+							border-right: 1px solid #e8e8e8; 
+							float: left;
+							font-size: 25px;
+						}
+
+						.banner__title__text {
+							padding: 10px 0 0 60px;
+						}
+					}
+
+					.banner__content {
+						display: none;
+						margin: 25px 0 35px 40px;
+						font-size: 13px;
+					}
+				}
+
+				.banner--modify {
+
+					.banner__title {
+						color: $main_color;
+						background: $white;
+						border-color: #e8e8e8;
+
+						.banner__title__plus {
+							border-color: #e8e8e8;
+						}
+					}
+
+					.banner__content {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+//footter
+
+.footter__logo {
+	padding: 85px 0 95px 0;
+	background-color: $white;
+
+	img {
+		display: block;
+		margin: 0 auto;
+	} 
+}
+
+.footter-navigation-container {
+	padding: 60px 0 80px 0;
+	background-color: $main_color;
+
+	.footter-navigation-box {
+		width: $width;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+
+		.footter-navigation {
+			font-family: $ubuntu;
+			float: left;
+			margin-right: 40px;
+
+			.footter-navigation__title {
+				color: $white;
+				font-size: 16px;
+				margin-bottom: 50px;
+
+			}
+
+			.footter-navigation__ul {
+
+				.footter-navigation__li {
+					list-style: none;
+					width: 260px;
+					padding: 10px 0 10px 0;
+                    border-bottom: 1px solid #7d7e80;
+					
+					a {
+						text-decoration: none; 
+						color: #7d7e80;
+					}
+
+					a:hover {
+						color: $blue;
+					}
+				}
+				.footter-navigation__li--last {
+					border-bottom: none;
+				}
+			}
+		}
+
+		.footter-navigation--forth {
+			margin-right: 0;
+		}
+	}
+}
+
+.footter__contacts {
+	background-color: #35383c;
+
+	.footter__contacts-box {
+		position: relative;
+		overflow: hidden;
+		width: $width;
+		margin: 0 auto;
+		padding: 22px 0 20px 0;
+		color: #5d6063;
+		font-family: $ubuntu;
+
+		.footter__contacts-location {
+			text-align: center;
+			width: 385px;
+			margin-right: 25px;
+			float: left;
+
+			img {
+				width: 15px;
+				height: 18px;
+				float: left;
+			}
+		}
+
+		.footter__contacts-phone {
+			text-align: center;
+			width: 155px;
+			margin-right: 25px;
+			float: left;
+
+			img {
+				width: 15px;
+				height: 18px;
+				float: left;
+			}
+		}
+
+		.footter__contacts-mail {
+			text-align: center;
+			width: 190px;
+			margin-right: 25px;
+			float: left;
+
+			img {
+				width: 18px;
+				height: 18px;
+				float: left;
+			}
+		}
+	}
+}
+
+
