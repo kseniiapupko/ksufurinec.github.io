@@ -1,0 +1,2 @@
+[Fri Apr 29 2016 16:32:05 GMT+0300 (Финляндия (лето))] layer "Tuko.co.ke spent a morning with her at the Muthaiga Golf Club  ": Expected end of input but "s" found.
+[Fri Apr 29 2016 14:03:14 GMT+0300 (Финляндия (лето))] layer "0fgjhs60je466q5um.f528f486": Expected end of input but "4" found.
